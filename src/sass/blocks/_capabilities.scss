@@ -1,0 +1,44 @@
+.capabilities {
+    padding: 120px 0 150px 0;
+    background: #FFF8E4;
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template: repeat(2,auto) /repeat(3,330px);
+        justify-content: center;
+        gap: 57px 110px;
+    }
+    &__item {
+        text-align: center;
+    }
+    &__icon {
+        margin: 0 auto;
+        width: 160px;
+        height: 120px;
+        img {
+            width: 100%;
+        }
+    }
+    &__label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 23px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    &__descr {
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 25px;
+        span {
+            text-decoration: underline;
+        }
+    }
+}
