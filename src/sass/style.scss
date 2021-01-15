@@ -1,0 +1,23 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/_header.scss';
+@import 'blocks/buttons';
+@import 'blocks/accelerate';
+@import 'blocks/companies';
+@import 'blocks/advantages';

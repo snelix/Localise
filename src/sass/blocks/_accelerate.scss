@@ -1,0 +1,38 @@
+.accelerate {
+    padding-top: 129px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__block {
+        width: 610px;
+    }
+    &__image {
+        width: 737px;
+        img {
+            width: 100%;
+        }
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 70px;
+        margin-bottom: 51px;
+    }
+    &__text {
+        width: 460px;
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 50px;
+    }
+    &__buttons {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    &__descr {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

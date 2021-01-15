@@ -1,0 +1,40 @@
+.header {
+    height: 95px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    &__wrapper {
+        width: 100%;
+        margin: 0 51px;
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+    }
+    &__title {
+        margin-left: 10px;
+    }
+    &__block {
+        display: flex;
+        align-items: center;
+    }
+    &__menu {
+        margin-left: 51px;
+    }
+    &__list {
+        list-style-type: none;
+        display: flex;
+        margin-bottom: 0;
+    }
+    &__item {
+        margin-right: 45px;
+        color: #000;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    &__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 250px;
+    }
+}

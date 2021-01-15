@@ -1,0 +1,20 @@
+.companies {
+    margin-top: 182px;
+    padding: 95px 0;
+    background: #FF9C7D;
+    &__title {
+        width: 720px;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
