@@ -1,0 +1,24 @@
+.easy {
+    min-height: 603px;
+    background: #FF9C7D;
+    padding: 119px 0 161px;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 30px;
+        width: 784px;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 75px;
+    }
+    &__subtitle {
+        margin-bottom: 54px;
+        width: 438px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

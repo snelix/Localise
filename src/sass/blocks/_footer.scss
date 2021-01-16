@@ -1,0 +1,84 @@
+.footer {
+    padding-top: 92px;
+    &__wrapper {
+        padding-bottom: 95px;
+        display: grid;
+        grid-template-columns: minmax(auto,300px) 850px;
+        column-gap: 140px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 28px;
+    }
+    &__image {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 31px;
+        img {
+            width: 100%;
+        }
+    }
+    &__company {
+        width: 80px;
+        height: 32px;
+        margin-bottom: 11px;
+        img {
+            width: 100%;
+        }
+    }
+    &__descr {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    &__read-more {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+    }
+    &__link-block {
+        display: grid;
+        grid-template-columns: repeat(4,187px);
+        column-gap: 34px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        &-title {
+            margin-bottom: 21px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 25px;
+        }
+        &-link {
+            font-size: 15px;
+            line-height: 15px;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+    }
+    &__copyright {
+        padding-right: 76px;
+        height: 126px;
+        border-top: 1px solid #000000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        width: 301px;
+        margin-left: 14px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    &__block-left {
+        display: flex;
+    }
+    &__block-right {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

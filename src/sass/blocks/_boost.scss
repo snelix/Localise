@@ -1,0 +1,39 @@
+.boost {
+    margin-top: 154px;
+    &__wrapper {
+        display: grid;
+        grid-template: minmax(580px,auto) / repeat(auto-fit, 410px);
+        grid-auto-rows: minmax(580px,auto);
+        justify-content: space-between;
+    }
+    &__icon {
+        min-height: 201px;
+        display: flex;
+        align-items: center;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 75px;
+        text-align: center;
+    }
+    &__label {
+        margin-top: 49px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    &__descr {
+        margin-top: 34px;
+        margin-bottom: 25px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    &__learn {
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration: underline;
+        color: #000000;
+    }
+}

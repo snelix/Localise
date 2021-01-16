@@ -1,0 +1,35 @@
+.rating {
+    padding: 80px 0;
+    min-height: 332px;
+    background: #DABC98;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__info {
+        width: 820px;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid #000000;
+    }
+    &__title {
+        margin-left: 67px;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+    &__stars {
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+    }
+    &__star {
+        margin: 20px 0 14px;
+    }
+    &__label {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,30 @@
+.feedback {
+    margin-top: 200px;
+    min-height: 468px;
+    background: #C9E8F2;
+    padding: 53px 0 105px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        width: 870px;
+    }
+    &__img {
+        width: 310px;
+        height: 310px;
+        img {
+            width: 100%;
+        }
+    }
+    &__descr {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    &__name {
+        margin-top: 23px;
+        margin-bottom: 7px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
