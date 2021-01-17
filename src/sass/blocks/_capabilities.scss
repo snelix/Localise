@@ -9,7 +9,7 @@
     }
     &__wrapper {
         display: grid;
-        grid-template: repeat(2,auto) /repeat(3,330px);
+        grid-template: repeat(2,auto) /repeat(auto-fit,330px);
         justify-content: center;
         gap: 57px 110px;
     }
