@@ -7,13 +7,13 @@
         align-items: center;
     }
     &__title {
-        width: 791px;
+        max-width: 791px;
         font-weight: 700;
         font-size: 65px;
         line-height: 75px;
     }
     &__subtitle {
-        width: 539px;
+        max-width: 539px;
         margin-top: 10px;
         font-size: 25px;
         line-height: 30px;

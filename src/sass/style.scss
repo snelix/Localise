@@ -11,12 +11,12 @@
 }
 
 .container {
-    width: 1290px;
+    max-width: 1290px;
     margin: 0 auto;
 }
 
 
-@import 'blocks/_header.scss';
+@import 'blocks/header.scss';
 @import 'blocks/buttons';
 @import 'blocks/accelerate';
 @import 'blocks/companies';
