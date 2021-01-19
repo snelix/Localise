@@ -47,6 +47,45 @@
             width: 100%;
         }
     }
+    .footer {
+        &__wrapper {
+            padding-bottom: 60px;
+            grid-template-columns: minmax(auto,240px) minmax(auto,850px);
+            column-gap: 65px;
+        }
+        &__image {
+            margin-bottom: 24px;
+        }
+        &__title {
+            font-size: 26px;
+            line-height: 26px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 24px;
+        }
+        &__read-more {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__item-link {
+            font-size: 13px;
+            line-height: 13px;
+            margin-bottom: 13px;
+        }
+        &__text {
+            font-size: 10px;
+            line-height: 15px;
+        }
+        &__block-right {
+            font-size: 10px;
+            line-height: 14px;
+        }
+        &__copyright {
+            padding-right: 60px;
+            height: 90px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -61,11 +100,16 @@
     }
     .header {
         height: 75px;
+        &__menu {
+            margin-left: 18px;
+        }
+        &__item {
+            margin-right: 10px;
+            font-size: 12px;
+            line-height: 12px;
+        }
         &__wrapper {
             margin: 0 20px;
-        }
-        &__menu {
-            display: none;
         }
     }
     .accelerate {
@@ -227,6 +271,18 @@
             line-height: 21px;
         }
     }
+    /* ТУТ   */
+    .footer {
+        &__wrapper {
+            padding-bottom: 40px;
+            grid-template-columns: minmax(auto,240px) minmax(auto,850px);
+        }
+        &__block-left {
+            img {
+                width: 80px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -236,7 +292,45 @@
     .hamburger {
         display: block;
     }
+    
     .header {
+        position: relative;
+        &__close {
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 35px;
+        }
+        &__menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0;
+            position: fixed;
+            left: -100%;
+            top: 0;
+            width: 50%;
+            height: 100vh;
+            z-index: 10;
+            background-color:rgba($color: #ffc500, $alpha: 0.95);
+            transition: all .6s;
+            &.active {
+                left: 0;
+            }
+        }
+        &__list {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            li {
+                margin-bottom: 20px;
+            }
+        }
+        &__item {
+            margin-right: 0;
+            font-size: 18px;
+        }
         &__buttons {
             margin-right: 40px;
         }
@@ -326,6 +420,16 @@
     .integrate {
         margin: 120px 0;
     }
+    .footer {
+        &__copyright {
+            padding-right: 30px;
+            height: 70px;
+        }
+        &__wrapper {
+            grid-template-columns: auto;
+            row-gap: 50px;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -362,6 +466,9 @@
                     width: 15px;
                 }
             }
+        }
+        &__menu {
+            width: 65%;
         }
         &__title {
             margin-left: 5px;
@@ -493,6 +600,30 @@
             margin-bottom: 30px;
             font-size: 14px;
             line-height: 25px;
+        }
+    }
+    .footer {
+        &__link-block {
+            grid-template: auto/repeat(auto-fill,minmax(145px, auto));
+            gap: 30px 10px;
+        }
+        &__copyright {
+            height: 50px;
+            padding-right: 0;
+        }
+        &__block-left {
+            img {
+                width: 40px;
+            }
+        }
+        &__text {
+            width: 150px;
+            font-size: 8px;
+            line-height: 11px;
+        }
+        &__block-right {
+            font-size: 7px;
+            line-height: 10px;
         }
     }
 }
